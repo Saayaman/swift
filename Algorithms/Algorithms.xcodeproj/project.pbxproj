@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742D52BD1F0FFE3700050A75 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D52BC1F0FFE3700050A75 /* RemoveDuplicates.swift */; };
 		7430DE271F04316E0075BAD2 /* RomantoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430DE261F04316E0075BAD2 /* RomantoInt.swift */; };
 		743C13601F01BACE00987C88 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C135F1F01BACE00987C88 /* main.swift */; };
 		743C13671F01EDA100987C88 /* Paildrone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C13661F01EDA100987C88 /* Paildrone.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		742D52BC1F0FFE3700050A75 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		7430DE261F04316E0075BAD2 /* RomantoInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomantoInt.swift; sourceTree = "<group>"; };
 		743C135C1F01BACE00987C88 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C135F1F01BACE00987C88 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				747B71A71F04AAE6001F6A6F /* StringsPlay.swift */,
 				745113801F0B2F7C00CA36B6 /* isValid.swift */,
 				745113B31F0DC8E400CA36B6 /* ArrayPlay.swift */,
+				742D52BC1F0FFE3700050A75 /* RemoveDuplicates.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				743C13691F01EDCD00987C88 /* ReverseInt.swift in Sources */,
 				7451137F1F0AEA6200CA36B6 /* CommonPrefix.swift in Sources */,
 				7430DE271F04316E0075BAD2 /* RomantoInt.swift in Sources */,
+				742D52BD1F0FFE3700050A75 /* RemoveDuplicates.swift in Sources */,
 				745113811F0B2F7C00CA36B6 /* isValid.swift in Sources */,
 				743C13671F01EDA100987C88 /* Paildrone.swift in Sources */,
 				743C136B1F01EE2700987C88 /* TwoSums.swift in Sources */,

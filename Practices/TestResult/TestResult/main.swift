@@ -74,7 +74,7 @@ func setToZeros(mat: inout[[Int]]){
 setToZeros(mat: &matrix)
 
 //original matrix is changed = inout parameter changes original value
-print(matrix)
+print("inout:\(matrix)")
 
 
 var string = "Hello"

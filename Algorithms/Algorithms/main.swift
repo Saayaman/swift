@@ -13,7 +13,7 @@ let stringPlay = StringsPlay()
 stringPlay.playit()
 
 
-let array = ["Mike","Betty","Joe","Heather","Cathy","Malcom"]
+var array = ["Mike","Betty","Joe","Heather","Cathy","Malcom"]
 ArrayPlay().play(array)
 
 
@@ -36,3 +36,8 @@ print("isValid: \(isValid("{}[]"))")
 print("isValid: \(isValid("(["))")
 print("isValid: \(isValid("[}{)"))")
 print("isValid: \(isValid("([])"))")
+
+
+var array2 = [1,1,2,3,5,6,6,6,9,9]
+print("removeDuplicates: \(removeDuplicates(&array2))")
+
