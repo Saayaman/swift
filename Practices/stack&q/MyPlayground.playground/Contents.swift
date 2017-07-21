@@ -40,7 +40,11 @@ var myStack = Stack<Int>()
 
 print("Input number of times that accepts command")
 
-let times = readLine().flatMap{ Int($0) }!
+//guard let times = readLine().flatMap{Int($0)} else{
+//    return 0
+//}
+
+let times = readLine().flatMap{ Int($0) }?
 
 print("1: push 2: pop 3: print max element")
 
