@@ -11,52 +11,28 @@ import Foundation
 
 func isValid(_ s: String) -> Bool {
     
-    var isValid = true
-    var b:Character = "c"
-    let chars = s.characters
+    var count = 0
+    var stack = [Character]()
+    var parentheses: [Character: Character] = ["(": ")", "{": "}", "[": "]"]
     
-    for a in chars{
-        
-        if chars.count % 2 != 0 {
-            isValid = false
-            break
-        }
-   
-        if a == "(" || a == "{" || a == "["{
+    for c in s.characters {
+        if let end = parentheses[c] {
+            stack.append(end)
+            print("Fisrt: \(c)","\(count)")
+            count += 1
             
-            if a == b{
-                isValid = false
-                break
+        } else if parentheses.values.contains(c) {
+            
+            if stack.isEmpty || stack.removeLast() != c {
+                return false
             }
             
-            if b == "{" || b == "(" || b == "["{
-                isValid = false
-                break
-            }
-            
-            b = a
+            print("Second: \(c)+ \(count)")
+            count += 1
         }
         
-        if a == ")" && b != "("{
-            isValid = false
-            break
-        }
-        
-        if a == "}" && b != "{"{
-            isValid = false
-            break
-        }
-        
-        if a == "]" && b != "["{
-            isValid = false
-            break
-        }
-        
-        if a == ")" || a == "}" || a == "]"{
-            b = a
-        }
-
+        print(stack)
     }
     
-    return isValid
+    return stack.isEmpty
 }
