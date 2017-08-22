@@ -59,3 +59,15 @@ printEach(a:intArr)
 
 
 
+
+let divide = {(val1: Int, val2: Int) -> Int in
+    return val1 / val2
+}
+
+
+func doDivide(_ val1:Int, _ val2:Int) -> Int{
+    return val1 / val2
+}
+
+print(divide(200,20))
+print(doDivide(200,20))

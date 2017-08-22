@@ -134,3 +134,17 @@ let abbreviatedStates = states.map({ (state: String) -> String in
 print(abbreviatedStates)
 
 
+let s1 = Student("Yagami")
+let s2 = Student("Dekisugi")
+
+Student.collegeName = "Waseda University"
+
+
+s1.display()
+s2.display()
+
+print(Student.collegeName!)
+
+//let final = Final()
+//print(final.name)
+
